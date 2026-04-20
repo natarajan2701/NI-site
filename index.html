@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>NARAYANA INDUSTRIES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="NI LOGO.PNG">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="factory-bg">
+            <div class="conveyor-belt">
+                <div class="belt-segment"></div>
+                <div class="belt-segment"></div>
+                <div class="belt-segment"></div>
+            </div>
+            <div class="robotic-arm arm-1">
+                <div class="arm-base"></div>
+                <div class="arm-joint"></div>
+                <div class="arm-extension"></div>
+                <div class="arm-gripper"></div>
+            </div>
+            <div class="robotic-arm arm-2">
+                <div class="arm-base"></div>
+                <div class="arm-joint"></div>
+                <div class="arm-extension"></div>
+                <div class="arm-gripper"></div>
+            </div>
+            <div class="gear-system">
+                <div class="large-gear gear-1"></div>
+                <div class="medium-gear gear-2"></div>
+                <div class="small-gear gear-3"></div>
+                <div class="chain-link"></div>
+            </div>
+            <div class="production-line">
+                <div class="product product-1"></div>
+                <div class="product product-2"></div>
+                <div class="product product-3"></div>
+                <div class="product product-4"></div>
+            </div>
+            <div class="factory-floor"></div>
+            <div class="control-panel">
+                <div class="indicator-light light-1"></div>
+                <div class="indicator-light light-2"></div>
+                <div class="indicator-light light-3"></div>
+            </div>
+        </div>
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="NI LOGO.PNG" alt="Narayana Industries">
+            </div>
+            <div class="factory-loader">
+                <div class="assembly-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                        <div class="progress-spark"></div>
+                    </div>
+                    <div class="assembly-parts">
+                        <div class="part part-1"></div>
+                        <div class="part part-2"></div>
+                        <div class="part part-3"></div>
+                    </div>
+                </div>
+                <div class="factory-icon">
+                    <div class="cog cog-1"></div>
+                    <div class="cog cog-2"></div>
+                    <div class="cog cog-3"></div>
+                </div>
+            </div>
+            <div class="loader-text">
+                <span class="loading-word">Manufacturing Excellence</span>
+                <div class="factory-progress">
+                    <div class="progress-track">
+                        <div class="progress-robot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-inner">
+            <div class="brand-group">
+                <img src="NI LOGO.PNG" alt="Narayana Industries Logo" class="header-logo">
+                <div>
+                    <h1>NARAYANA INDUSTRIES</h1>
+                    <p class="eyebrow">Engineering Reliability | Precision Manufacturing | Trusted Quality</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#service-details" class="dropdown-toggle">Services <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#service-details" class="service-menu-link" data-service="piston">Piston For Air Spring</a></li>
+                            <li><a href="#service-details" class="service-menu-link" data-service="railway">Railway Air Spring System</a></li>
+                            <li><a href="#service-details" class="service-menu-link" data-service="pressure">Pressure Parts & Steam Power Plant</a></li>
+                            <li><a href="#service-details" class="service-menu-link" data-service="fabrication">Structural Fabrication</a></li>
+                            <li><a href="#service-details" class="service-menu-link" data-service="spm-panel">SPM Panel Bending Machine</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Company Video Section -->
+        <section class="video-showcase">
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe
+                        class="company-video"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+                        title="Narayana Industries - Company Overview"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="video-overlay"></div>
+                </div>
+                <div class="video-content">
+                    <h3>Narayana Industries Excellence</h3>
+                    <p>Witness our state-of-the-art manufacturing facility and precision engineering capabilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="home" class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Engineering Excellence</span>
+                <h2>Future-ready precision solutions for industrial growth</h2>
+                <p>Delivering innovative manufacturing, certified production and reliable support for automotive and railway applications.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="cta-btn">Request a Quote</a>
+                    <a href="#service-details" class="ghost-btn">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="stats-card">
+                    <span>ISO 9001:2015</span>
+                    <p>Certified systems for quality and compliance.</p>
+                </div>
+                <div class="stats-card alt">
+                    <span>Precision Production</span>
+                    <p>Specialized machining, fabrication and assembly lines.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-panel">
+            <div class="section-heading">
+                <h2>About Us</h2>
+                <p>Strong engineering heritage and a commitment to quality drive every project.</p>
+            </div>
+            <div class="about-grid">
+                <article class="about-card">
+                    <h3>What we do</h3>
+                    <p>Narayana Industries is a precision engineering company specializing in automotive and railway air spring metal components, heavy machining, structural fabrication, and production-line manufacturing.</p>
+                </article>
+                <article class="about-card">
+                    <h3>Why choose us</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Advanced infrastructure and skilled workforce</li>
+                        <li><i class="fa-solid fa-check"></i> Quality-driven manufacturing solutions</li>
+                        <li><i class="fa-solid fa-check"></i> Certified welding and reliable delivery</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Services Section with Icons -->
+        <section class="services-section" id="services">
+            <div class="section-heading">
+                <h2>Our Services</h2>
+                <p>Precision engineering solutions tailored to your manufacturing needs</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card" data-service="piston" style="--delay: 0s;">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                    <h3>Piston For Air Spring</h3>
+                    <span class="service-tag">Air Spring Precision</span>
+                    <p>High-quality pistons crafted for air spring systems in commercial vehicles.</p>
+                    <a href="#service-details" class="service-link" data-service="piston">Learn More →</a>
+                </article>
+
+                <article class="service-card" data-service="railway" style="--delay: 0.08s;">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-train"></i>
+                        </div>
+                    </div>
+                    <h3>Railway Air Spring System</h3>
+                    <span class="service-tag">Railway Suspension</span>
+                    <p>Advanced metal parts for railway air spring systems supporting heavy loads.</p>
+                    <a href="#service-details" class="service-link" data-service="railway">Learn More →</a>
+                </article>
+
+                <article class="service-card" data-service="pressure" style="--delay: 0.16s;">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                    </div>
+                    <h3>Pressure Parts & Steam Plant</h3>
+                    <span class="service-tag">Power Plant Manufacturing</span>
+                    <p>Comprehensive pressure part manufacturing for steam power plants.</p>
+                    <a href="#service-details" class="service-link" data-service="pressure">Learn More →</a>
+                </article>
+
+                <article class="service-card" data-service="fabrication" style="--delay: 0.24s;">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                        </div>
+                    </div>
+                    <h3>Structural Fabrication</h3>
+                    <span class="service-tag">Heavy Fabrication Services</span>
+                    <p>Precision fabrication for galleries, frames, trusses and platforms.</p>
+                    <a href="#service-details" class="service-link" data-service="fabrication">Learn More →</a>
+                </article>
+
+                <article class="service-card" data-service="spm-panel" style="--delay: 0.32s;">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                    </div>
+                    <h3>SPM Panel Bending Machine</h3>
+                    <span class="service-tag">Precision Panel Bending</span>
+                    <p>Customized panel bending machines for precise sheet metal forming.</p>
+                    <a href="#service-details" class="service-link" data-service="spm-panel">Learn More →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Our Customers -->
+        <section class="customers-section">
+            <div class="section-heading">
+                <h2>Our Customers</h2>
+                <p>We proudly partner with leading brands across automotive, power, mobility, and industrial systems.</p>
+            </div>
+            <div class="customers-grid">
+                <article class="customer-card" style="--delay: 0s;">
+                    <div class="customer-logo">
+                        <img src="tvs air springs.png" alt="TVS Airsprings" />
+                    </div>
+                    <h3>TVS Airsprings</h3>
+                    <p>Trusted partner for air spring metal components.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.08s;">
+                    <div class="customer-logo">
+                        <img src="bharat-heavy-electricals.png" alt="BHEL" />
+                    </div>
+                    <h3>BHEL</h3>
+                    <p>Serving India’s leading power equipment and engineering needs.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.16s;">
+                    <div class="customer-logo">
+                        <img src="BGR energy.png" alt="BGR Energy" />
+                    </div>
+                    <h3>BGR Energy</h3>
+                    <p>Precision solutions for power generation equipment.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.24s;">
+                    <div class="customer-logo">
+                        <img src="reliance power.png" alt="Reliance Power" />
+                    </div>
+                    <h3>Reliance Power</h3>
+                    <p>Engineering support for major energy and infrastructure projects.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.32s;">
+                    <div class="customer-logo">
+                        <img src="Switch_mobility_logo.png" alt="Switch Mobility" />
+                    </div>
+                    <h3>Switch Mobility</h3>
+                    <p>Innovation for electric vehicle and mobility systems.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.40s;">
+                    <div class="customer-logo">
+                        <img src="Nuppl.jpg" alt="Nuppl" />
+                    </div>
+                    <h3>Nuppl</h3>
+                    <p>High-end fabrication for industrial engineering.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.48s;">
+                    <div class="customer-logo">
+                        <img src="global_tvs.jpg" alt="Global TVS" />
+                    </div>
+                    <h3>Global TVS</h3>
+                    <p>Reliable manufacturing partner for global supply chains.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.56s;">
+                    <div class="customer-logo">
+                        <img src="prakash-smk.jpg" alt="Prakash SMK" />
+                    </div>
+                    <h3>Prakash SMK</h3>
+                    <p>Collaborating on precision components and assemblies.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.64s;">
+                    <div class="customer-logo">
+                        <img src="Pralcka_Logo.png" alt="Praluka" />
+                    </div>
+                    <h3>Praluka</h3>
+                    <p>Trusted for quality manufacturing and engineering support.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.72s;">
+                    <div class="customer-logo">
+                        <img src="ideal.png" alt="Ideal" />
+                    </div>
+                    <h3>Ideal</h3>
+                    <p>Core partner for precision production and delivery.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.80s;">
+                    <div class="customer-logo">
+                        <img src="geeco.png" alt="Geeco" />
+                    </div>
+                    <h3>Geeco</h3>
+                    <p>Collaborating on next-gen industrial engineering solutions.</p>
+                </article>
+                <article class="customer-card" style="--delay: 0.88s;">
+                    <div class="customer-logo">
+                        <img src="ribo.jpg" alt="Ribo" />
+                    </div>
+                    <h3>Ribo</h3>
+                    <p>Precision components for demanding applications.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="service-details" class="service-details hidden">
+            <div class="section-heading">
+                <h2>Service Details</h2>
+                <p>Select a service from the navigation to view the animated loading experience and detailed expertise summary.</p>
+            </div>
+            <div class="service-panel">
+                <div class="service-meta">
+                    <span class="eyebrow" id="serviceTag">Service Spotlight</span>
+                    <h3 id="serviceTitle">Piston For Air Spring</h3>
+                    <p id="serviceDescription">Choose any service category in the navigation to load detailed information with a premium animation effect.</p>
+                </div>
+                <div class="service-info-grid">
+                    <article class="service-highlight">
+                        <h4>What we deliver</h4>
+                        <ul id="serviceFeatures">
+                            <li>High precision components with ISO-grade accuracy</li>
+                            <li>Specialized machining for automotive and rail applications</li>
+                            <li>End-to-end quality validation and testing</li>
+                        </ul>
+                    </article>
+                    <article class="service-advantages">
+                        <h4>Why choose this service</h4>
+                        <ul id="serviceBenefits">
+                            <li>Fast, reliable turnaround for high-volume orders</li>
+                            <li>Certified manufacturing and strong process controls</li>
+                            <li>Flexible engineering support for complex projects</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div class="service-loader" id="serviceLoader">
+                <div class="loader-ring"></div>
+                <p>Loading service overview...</p>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates-section">
+            <div class="section-heading">
+                <h2>Quality <span>Certifications</span></h2>
+                <p>Our commitment to excellence is validated by internationally recognized certifications and standards.</p>
+            </div>
+            <div class="certificates-grid">
+                <article class="certificate-card" style="--delay: 0s;">
+                    <div class="certificate-image">
+                        <img src="ISO_9001-2015.svg.png" alt="ISO 9001:2015 Certificate">
+                        <div class="certificate-badge">ISO 9001:2015</div>
+                    </div>
+                    <h3>ISO 9001:2015</h3>
+                    <p class="certificate-description">Quality Management System - Ensuring consistent quality in all manufacturing processes and services.</p>
+                    <div class="certificate-features">
+                        <span><i class="fa-solid fa-check-circle"></i> Process Excellence</span>
+                        <span><i class="fa-solid fa-check-circle"></i> Quality Assurance</span>
+                        <span><i class="fa-solid fa-check-circle"></i> Customer Satisfaction</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card" style="--delay: 0.15s;">
+                    <div class="certificate-image">
+                        <img src="certificate-intertek.png" alt="Intertek Certificate">
+                        <div class="certificate-badge">Intertek Certified</div>
+                    </div>
+                    <h3>Intertek Certification</h3>
+                    <p class="certificate-description">Independent third-party verification for product quality, safety and compliance with international standards.</p>
+                    <div class="certificate-features">
+                        <span><i class="fa-solid fa-check-circle"></i> Safety Standards</span>
+                        <span><i class="fa-solid fa-check-circle"></i> Compliance Verified</span>
+                        <span><i class="fa-solid fa-check-circle"></i> Global Recognition</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="content-panel contact-panel">
+            <div class="section-heading">
+                <h2>Contact Us</h2>
+                <p>Get in touch for inquiries, partnership discussions or project planning.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <address>SF. NO: 173/3C, Vengur, Thiruverumbur, Tiruchirappalli, Tamil Nadu, India - 620013.</address><br>
+                            <p><b>GSTIN: 33AAWFN9252H1ZQ</b></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p><b>MR.SEKAR N, PARTNER</b><br><a href="callto:+91-9003950427">+91-9003950427</a></p><br>
+                            <p><b>MR.MANIMURUGAN R, GM</b><BR><a href="callto:+91-7904708300">+91-7904708300</a></p><BR>
+                            <p><b>MR.GNANASEKARAN K, GM</b><br><a href="callto:+91-9965522554">+91-9965522554</a></p><br>
+                            <p><b>MR.SANTHOSH S,TECHNO COMMERCIAL ENGINEER</b><BR><a href="callto:+91-7904708300">+91-7904708300</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:operations@niorg.in">operations@niorg.in</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-wrap">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.558!2d78.7672426!3d10.8130451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf3f047afc293%3A0xf54436667c595ea5!2sNarayana%20Industries!5e0!3m2!1sen!2sin!4v" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Narayana Industries. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
